@@ -1,0 +1,21 @@
+[package]
+name = "wsserver"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.13.0"
+actix-codec = "0.5.1"
+actix-rt = "2.9.0"
+actix-web = "4.4.0"
+actix-web-actors = "4.2.0"
+actix-web-codegen = "4.2.1"
+anyhow = "1.0.75"
+awc = "3.2.0"
+env_logger = "0.10.0"
+futures-util = { version = "0.3.28", features = ["std", "sink"] }
+log = "0.4.20"
+tokio = { version = "1.32.0", features = ["full"] }
+tokio-stream = "0.1.14"
